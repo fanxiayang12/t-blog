@@ -68,3 +68,4 @@ technology blog, the summary of skills or experences
    也有人在用
 6. 看准网 <https://www.kanzhun.com/>
    互联网大厂的评价以及工资
+7. 数字英才网 <http://digit.36hjob.com/>
