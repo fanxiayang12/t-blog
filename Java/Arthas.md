@@ -34,6 +34,12 @@ java -jar arthas-boot.jar 24388 --target-ip 10.10.10.15
 # stop
 ```
 
+## 集成到spring boot
+
+    应用启动后，spring会启动arthas，并attach自身进程。
+    结合Endpoint的actuator，可以查看arthas配置
+
+    http://localhost:8080/actuator/arthas
 ## Web Console
 
     --target-ip参数指定listen的IP，attach成功之后，可以直接访问:http://10.10.10.15:3658/
