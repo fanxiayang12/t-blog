@@ -1,0 +1,1 @@
+[Jest官方说明文档](https://github.com/searchbox-io/Jest/tree/master/jest)
