@@ -18,6 +18,12 @@ git push --set-upstream origin dev
 git checkout master
 git merge dev
 
+# 合并某次提交
+# 查看commitID
+git log
+# 合并
+git cherry-pick <commitID>
+
 # 删除开发分支
 git branch -d dev
 # 删除远程分支
