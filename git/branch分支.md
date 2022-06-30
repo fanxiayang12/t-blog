@@ -7,6 +7,11 @@
 # 查看所在分支
 git branch
 git branch -a # 包含远程分支
+git branch -r # 远程分支
+
+# 拉取分支
+git fetch --prune
+git fetch -p
 
 # 根据所在分支，创建新分支
 git checkout -b dev
@@ -24,8 +29,15 @@ git log
 # 合并
 git cherry-pick <commitID>
 
+# 回滚本次commit
+git reset --hard HEAD^
+# 回滚到特定
+git reset --hard e09af7ae711e2a79c15144c1e792fb2e27d201ff
+
 # 删除开发分支
 git branch -d dev
 # 删除远程分支
 git push origin --delete dev
+
+
 ```
